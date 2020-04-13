@@ -5,7 +5,11 @@ import org.junit.jupiter.api.Test;
 
 public class GettingStartedTest {
 
-    //g8
+    //@BeforeEach: run before each @test case /  @AfterEach
+    //@BeforeAll: run one before all @test case / @AfterAll
+    //@Disabled skip the testcase that below this command
+    //@Test
+    //一个testcase只查一个东西不要一个test case 然后assert好几个
     @Test
     public void addFiveTo20() {
         int result = new GettingStarted().addFive(20);
